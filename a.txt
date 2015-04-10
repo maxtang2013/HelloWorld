@@ -1,1 +1,2 @@
 This is just another text file.
+Added a line by max.
