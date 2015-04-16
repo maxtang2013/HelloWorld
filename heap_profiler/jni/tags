@@ -1,0 +1,212 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALLOCS_ENTRIES_MAX	heap_profiler.c	151;"	d	file:
+APP_PLATFORM	Android.mk	/^APP_PLATFORM := android-21$/;"	m
+Alloc	heap_profiler.h	/^typedef struct Alloc {$/;"	s
+Alloc	heap_profiler.h	/^} Alloc;$/;"	t	typeref:struct:Alloc
+Alloc::end	heap_profiler.h	/^  uintptr_t end;$/;"	m	struct:Alloc	access:public
+Alloc::flags	heap_profiler.h	/^  uint32_t flags;       \/\/ See HEAP_PROFILER_FLAGS_*.$/;"	m	struct:Alloc	access:public
+Alloc::next_free	heap_profiler.h	/^  struct Alloc* next_free;$/;"	m	struct:Alloc	typeref:struct:Alloc::Alloc	access:public
+Alloc::rb_node	heap_profiler.h	/^  RB_ENTRY(Alloc) rb_node;  \/\/ Anchor for the RB-tree;$/;"	m	struct:Alloc	access:public
+Alloc::st	heap_profiler.h	/^  StacktraceEntry* st;  \/\/ NULL == free entry.$/;"	m	struct:Alloc	access:public
+Alloc::start	heap_profiler.h	/^  uintptr_t start;$/;"	m	struct:Alloc	access:public
+DEFINE_MUTEX	heap_profiler.c	/^static DEFINE_MUTEX(lock);$/;"	p	file:
+DEFINE_MUTEX	heap_profiler.c	54;"	d	file:
+GCC	Makefile	/^GCC=gcc$/;"	m
+HEAP_PROFILER_EXPORT	heap_profiler_hooks_android.c	19;"	d	file:
+HEAP_PROFILER_FLAGS_IN_ZYGOTE	heap_profiler.h	24;"	d
+HEAP_PROFILER_FLAGS_MALLOC	heap_profiler.h	15;"	d
+HEAP_PROFILER_FLAGS_MMAP	heap_profiler.h	18;"	d
+HEAP_PROFILER_FLAGS_MMAP_FILE	heap_profiler.h	21;"	d
+HEAP_PROFILER_MAGIC_MARKER	heap_profiler.h	11;"	d
+HEAP_PROFILER_MAX_DEPTH	heap_profiler.h	12;"	d
+HeapStats	heap_profiler.h	/^} HeapStats;$/;"	t	typeref:struct:__anon1
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := heap_profiler$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE = heap_dump$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH := $(TOP_PATH)$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES := heap_dump.c$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES := heap_profiler_hooks_android.c heap_profiler.c$/;"	m
+LOCK_MUTEX	heap_profiler.c	55;"	d	file:
+OFF_T_MAX	heap_dump.c	263;"	d	file:
+RB_AUGMENT	tree.h	332;"	d
+RB_BLACK	tree.h	303;"	d
+RB_COLOR	tree.h	316;"	d
+RB_EMPTY	tree.h	318;"	d
+RB_ENTRY	tree.h	305;"	d
+RB_FIND	tree.h	721;"	d
+RB_FOREACH	tree.h	728;"	d
+RB_FOREACH_REVERSE	tree.h	738;"	d
+RB_FOREACH_REVERSE_SAFE	tree.h	743;"	d
+RB_FOREACH_SAFE	tree.h	733;"	d
+RB_GENERATE	tree.h	395;"	d
+RB_GENERATE_INTERNAL	tree.h	399;"	d
+RB_GENERATE_STATIC	tree.h	397;"	d
+RB_HEAD	heap_profiler.c	/^static RB_HEAD(HeapEntriesTree, Alloc) allocs_tree =$/;"	p	file:
+RB_HEAD	tree.h	291;"	d
+RB_INF	tree.h	717;"	d
+RB_INIT	tree.h	299;"	d
+RB_INITIALIZER	tree.h	296;"	d
+RB_INSERT	tree.h	719;"	d
+RB_LEFT	tree.h	313;"	d
+RB_MAX	tree.h	726;"	d
+RB_MIN	tree.h	725;"	d
+RB_NEGINF	tree.h	716;"	d
+RB_NEXT	tree.h	723;"	d
+RB_NFIND	tree.h	722;"	d
+RB_PARENT	tree.h	315;"	d
+RB_PREV	tree.h	724;"	d
+RB_PROTOTYPE	tree.h	376;"	d
+RB_PROTOTYPE_INTERNAL	tree.h	380;"	d
+RB_PROTOTYPE_STATIC	tree.h	378;"	d
+RB_RED	tree.h	304;"	d
+RB_REMOVE	tree.h	720;"	d
+RB_RIGHT	tree.h	314;"	d
+RB_ROOT	tree.h	317;"	d
+RB_ROTATE_LEFT	tree.h	335;"	d
+RB_ROTATE_RIGHT	tree.h	355;"	d
+RB_SET	tree.h	320;"	d
+RB_SET_BLACKRED	tree.h	326;"	d
+SPLAY_ASSEMBLE	tree.h	105;"	d
+SPLAY_EMPTY	tree.h	78;"	d
+SPLAY_ENTRY	tree.h	69;"	d
+SPLAY_FIND	tree.h	278;"	d
+SPLAY_FOREACH	tree.h	285;"	d
+SPLAY_GENERATE	tree.h	156;"	d
+SPLAY_HEAD	tree.h	57;"	d
+SPLAY_INF	tree.h	274;"	d
+SPLAY_INIT	tree.h	65;"	d
+SPLAY_INITIALIZER	tree.h	62;"	d
+SPLAY_INSERT	tree.h	276;"	d
+SPLAY_LEFT	tree.h	75;"	d
+SPLAY_LINKLEFT	tree.h	93;"	d
+SPLAY_LINKRIGHT	tree.h	99;"	d
+SPLAY_MAX	tree.h	282;"	d
+SPLAY_MIN	tree.h	280;"	d
+SPLAY_NEGINF	tree.h	273;"	d
+SPLAY_NEXT	tree.h	279;"	d
+SPLAY_PROTOTYPE	tree.h	114;"	d
+SPLAY_REMOVE	tree.h	277;"	d
+SPLAY_RIGHT	tree.h	76;"	d
+SPLAY_ROOT	tree.h	77;"	d
+SPLAY_ROTATE_LEFT	tree.h	87;"	d
+SPLAY_ROTATE_RIGHT	tree.h	81;"	d
+ST_ENTRIES_MAX	heap_profiler.c	73;"	d	file:
+ST_HASHTABLE_BUCKETS	heap_profiler.c	74;"	d	file:
+StacktraceEntry	heap_profiler.h	/^typedef struct StacktraceEntry {$/;"	s
+StacktraceEntry	heap_profiler.h	/^} StacktraceEntry;$/;"	t	typeref:struct:StacktraceEntry
+StacktraceEntry::alloc_bytes	heap_profiler.h	/^  size_t alloc_bytes;$/;"	m	struct:StacktraceEntry	access:public
+StacktraceEntry::frames	heap_profiler.h	/^  uintptr_t frames[HEAP_PROFILER_MAX_DEPTH];  \/\/ Absolute addrs of stack frames.$/;"	m	struct:StacktraceEntry	access:public
+StacktraceEntry::hash	heap_profiler.h	/^  uint32_t hash;  \/\/ H(frames), used to keep these entries in a hashtable.$/;"	m	struct:StacktraceEntry	access:public
+StacktraceEntry::next	heap_profiler.h	/^  struct StacktraceEntry* next;$/;"	m	struct:StacktraceEntry	typeref:struct:StacktraceEntry::StacktraceEntry	access:public
+TOOLS_ANDROID_HEAP_PROFILER_HEAP_PROFILER_H_	heap_profiler.h	6;"	d
+TOP_PATH	Android.mk	/^TOP_PATH := $(call my-dir)$/;"	m
+UNLOCK_MUTEX	heap_profiler.c	56;"	d	file:
+_GNU_SOURCE	heap_profiler_hooks_android.c	5;"	d	file:
+_SYS_TREE_H_	tree.h	28;"	d
+__anon1::allocs	heap_profiler.h	/^  Alloc* allocs;              \/\/ Start of the the Alloc pool.$/;"	m	struct:__anon1	access:public
+__anon1::magic_start	heap_profiler.h	/^  uint32_t magic_start;       \/\/ The magic marker used to locate the stats mmap.$/;"	m	struct:__anon1	access:public
+__anon1::max_allocs	heap_profiler.h	/^  uint32_t max_allocs;        \/\/ The max number of items in |allocs|.$/;"	m	struct:__anon1	access:public
+__anon1::max_stack_traces	heap_profiler.h	/^  uint32_t max_stack_traces;  \/\/ The max number of items in |stack_traces|.$/;"	m	struct:__anon1	access:public
+__anon1::num_allocs	heap_profiler.h	/^  uint32_t num_allocs;        \/\/ The total number of allocation entries present.$/;"	m	struct:__anon1	access:public
+__anon1::num_stack_traces	heap_profiler.h	/^  uint32_t num_stack_traces;  \/\/ The total number of stack traces present.$/;"	m	struct:__anon1	access:public
+__anon1::stack_traces	heap_profiler.h	/^  StacktraceEntry* stack_traces;  \/\/ Start of the StacktraceEntry pool.$/;"	m	struct:__anon1	access:public
+__anon1::total_alloc_bytes	heap_profiler.h	/^  size_t total_alloc_bytes;   \/\/ Total allocation bytes tracked.$/;"	m	struct:__anon1	access:public
+__anon2::frame_count	heap_profiler_hooks_android.c	/^  uint32_t frame_count;$/;"	m	struct:__anon2	file:	access:public
+__anon2::frames	heap_profiler_hooks_android.c	/^  uintptr_t* frames;$/;"	m	struct:__anon2	file:	access:public
+__anon2::have_skipped_self	heap_profiler_hooks_android.c	/^  bool have_skipped_self;$/;"	m	struct:__anon2	file:	access:public
+__anon2::max_depth	heap_profiler_hooks_android.c	/^  uint32_t max_depth;$/;"	m	struct:__anon2	file:	access:public
+alloc_bytes	heap_profiler.h	/^  size_t alloc_bytes;$/;"	m	struct:StacktraceEntry	access:public
+allocs	heap_profiler.c	/^static Alloc allocs[ALLOCS_ENTRIES_MAX];$/;"	v	file:
+allocs	heap_profiler.h	/^  Alloc* allocs;              \/\/ Start of the the Alloc pool.$/;"	m	struct:__anon1	access:public
+allocs_freelist	heap_profiler.c	/^static Alloc* allocs_freelist;$/;"	v	file:
+allocs_tree_cmp	heap_profiler.c	/^static int allocs_tree_cmp(Alloc *alloc_1, Alloc *alloc_2) {$/;"	f	file:	signature:(Alloc *alloc_1, Alloc *alloc_2)
+calloc	heap_profiler_hooks_android.c	/^HEAP_PROFILER_EXPORT void* calloc(size_t nmemb, size_t size) {$/;"	f	signature:(size_t nmemb, size_t size)
+calloc_t	heap_profiler_hooks_android.c	/^typedef void* (*calloc_t)(size_t, size_t);$/;"	t	file:
+delete_allocs_in_range	heap_profiler.c	/^static uint32_t delete_allocs_in_range(void* addr, size_t size) {$/;"	f	file:	signature:(void* addr, size_t size)
+discard_alloc	heap_profiler_hooks_android.c	/^static inline __attribute__((always_inline)) void discard_alloc($/;"	f	file:	signature:( void* start, size_t size, uint32_t* old_flags)
+dump_process_heap	heap_dump.c	/^static int dump_process_heap($/;"	f	file:	signature:( int mem_fd, FILE* fmaps, bool dump_also_allocs, bool pedantic, char* comment)
+end	heap_profiler.h	/^  uintptr_t end;$/;"	m	struct:Alloc	access:public
+flags	heap_profiler.h	/^  uint32_t flags;       \/\/ See HEAP_PROFILER_FLAGS_*.$/;"	m	struct:Alloc	access:public
+fp	heap_dump.c	/^static FILE* fp;$/;"	v	file:
+frame_count	heap_profiler_hooks_android.c	/^  uint32_t frame_count;$/;"	m	struct:__anon2	file:	access:public
+frames	heap_profiler.h	/^  uintptr_t frames[HEAP_PROFILER_MAX_DEPTH];  \/\/ Absolute addrs of stack frames.$/;"	m	struct:StacktraceEntry	access:public
+frames	heap_profiler_hooks_android.c	/^  uintptr_t* frames;$/;"	m	struct:__anon2	file:	access:public
+free	heap_profiler_hooks_android.c	/^HEAP_PROFILER_EXPORT void free(void* ptr) {$/;"	f	signature:(void* ptr)
+free_stacktrace	heap_profiler.c	/^static void free_stacktrace(StacktraceEntry* st) {$/;"	f	file:	signature:(StacktraceEntry* st)
+free_t	heap_profiler_hooks_android.c	/^typedef void (*free_t)(void*);$/;"	t	file:
+get_backtrace	heap_profiler_hooks_android.c	/^static uint32_t get_backtrace(uintptr_t* frames, uint32_t max_depth) {$/;"	f	file:	signature:(uintptr_t* frames, uint32_t max_depth)
+get_backtrace	heap_profiler_hooks_android.c	/^uint32_t get_backtrace(uintptr_t* frames, uint32_t max_depth);$/;"	p	file:	signature:(uintptr_t* frames, uint32_t max_depth)
+get_flags_for_mmap	heap_profiler_hooks_android.c	/^static uint32_t get_flags_for_mmap(int fd) {$/;"	f	file:	signature:(int fd)
+has_forked_off_zygote	heap_profiler_hooks_android.c	/^static int* has_forked_off_zygote;$/;"	v	file:
+hash	heap_profiler.h	/^  uint32_t hash;  \/\/ H(frames), used to keep these entries in a hashtable.$/;"	m	struct:StacktraceEntry	access:public
+have_skipped_self	heap_profiler_hooks_android.c	/^  bool have_skipped_self;$/;"	m	struct:__anon2	file:	access:public
+heap_profiler_alloc	heap_profiler.c	/^void heap_profiler_alloc(void* addr, size_t size, uintptr_t* frames,$/;"	f	signature:(void* addr, size_t size, uintptr_t* frames, uint32_t depth, uint32_t flags)
+heap_profiler_alloc	heap_profiler.h	/^void heap_profiler_alloc(void* addr,$/;"	p	signature:(void* addr, size_t size, uintptr_t* frames, uint32_t depth, uint32_t flags)
+heap_profiler_cleanup	heap_profiler.c	/^void heap_profiler_cleanup(void) {$/;"	f	signature:(void)
+heap_profiler_cleanup	heap_profiler.h	/^void heap_profiler_cleanup(void);$/;"	p	signature:(void)
+heap_profiler_free	heap_profiler.c	/^void heap_profiler_free(void* addr, size_t size, uint32_t* old_flags) {$/;"	f	signature:(void* addr, size_t size, uint32_t* old_flags)
+heap_profiler_free	heap_profiler.h	/^void heap_profiler_free(void* addr, size_t size, uint32_t* old_flags);$/;"	p	signature:(void* addr, size_t size, uint32_t* old_flags)
+heap_profiler_init	heap_profiler.c	/^void heap_profiler_init(HeapStats* heap_stats) {$/;"	f	signature:(HeapStats* heap_stats)
+heap_profiler_init	heap_profiler.h	/^void heap_profiler_init(HeapStats* heap_stats);$/;"	p	signature:(HeapStats* heap_stats)
+heap_profiler_stats_for_tests	heap_profiler_hooks_android.c	/^HEAP_PROFILER_EXPORT const HeapStats* heap_profiler_stats_for_tests;$/;"	v
+initialize	heap_profiler_hooks_android.c	/^static void initialize() {$/;"	f	file:
+initialized	heap_profiler_hooks_android.c	/^static int initialized = 0;$/;"	v	file:
+insert_alloc	heap_profiler.c	/^static Alloc* insert_alloc($/;"	f	file:	signature:( uintptr_t start, uintptr_t end, StacktraceEntry* st, uint32_t flags)
+lseek_abs	heap_dump.c	/^static void lseek_abs(int fd, size_t off) {$/;"	f	file:	signature:(int fd, size_t off)
+lseek_abs	heap_dump.c	/^static void lseek_abs(int fd, size_t off);$/;"	p	file:	signature:(int fd, size_t off)
+magic_start	heap_profiler.h	/^  uint32_t magic_start;       \/\/ The magic marker used to locate the stats mmap.$/;"	m	struct:__anon1	access:public
+main	heap_dump.c	/^int main(int argc, char** argv) {$/;"	f	signature:(int argc, char** argv)
+malloc	heap_profiler_hooks_android.c	/^HEAP_PROFILER_EXPORT void* malloc(size_t byte_count) {$/;"	f	signature:(size_t byte_count)
+malloc_t	heap_profiler_hooks_android.c	/^typedef void* (*malloc_t)(size_t);$/;"	t	file:
+max_allocs	heap_profiler.h	/^  uint32_t max_allocs;        \/\/ The max number of items in |allocs|.$/;"	m	struct:__anon1	access:public
+max_depth	heap_profiler_hooks_android.c	/^  uint32_t max_depth;$/;"	m	struct:__anon2	file:	access:public
+max_stack_traces	heap_profiler.h	/^  uint32_t max_stack_traces;  \/\/ The max number of items in |stack_traces|.$/;"	m	struct:__anon1	access:public
+mmap	heap_profiler_hooks_android.c	/^HEAP_PROFILER_EXPORT void* mmap($/;"	f	signature:( void* addr, size_t size, int prot, int flags, int fd, off_t offset)
+mmap2	heap_profiler_hooks_android.c	/^HEAP_PROFILER_EXPORT void* mmap2($/;"	f	signature:( void* addr, size_t size, int prot, int flags, int fd, off_t pgoffset)
+mmap2_t	heap_profiler_hooks_android.c	/^typedef void* (*mmap2_t)(void*, size_t, int, int, int, off_t);$/;"	t	file:
+mmap64	heap_profiler_hooks_android.c	/^HEAP_PROFILER_EXPORT void* mmap64($/;"	f	signature:( void* addr, size_t size, int prot, int flags, int fd, off64_t offset)
+mmap64_t	heap_profiler_hooks_android.c	/^typedef void* (*mmap64_t)(void*, size_t, int, int, int, off64_t);$/;"	t	file:
+mmap_t	heap_profiler_hooks_android.c	/^typedef void* (*mmap_t)(void*, size_t, int, int, int, off_t);$/;"	t	file:
+mremap	heap_profiler_hooks_android.c	/^HEAP_PROFILER_EXPORT void* mremap($/;"	f	signature:( void* addr, size_t oldlen, size_t newlen, unsigned long flags)
+mremap_t	heap_profiler_hooks_android.c	/^typedef void* (*mremap_t)(void*, size_t, size_t, unsigned long);$/;"	t	file:
+munmap	heap_profiler_hooks_android.c	/^HEAP_PROFILER_EXPORT int munmap(void* ptr, size_t size) {$/;"	f	signature:(void* ptr, size_t size)
+munmap_t	heap_profiler_hooks_android.c	/^typedef int (*munmap_t)(void*, size_t);$/;"	t	file:
+next	heap_profiler.h	/^  struct StacktraceEntry* next;$/;"	m	struct:StacktraceEntry	typeref:struct:StacktraceEntry::StacktraceEntry	access:public
+next_free	heap_profiler.h	/^  struct Alloc* next_free;$/;"	m	struct:Alloc	typeref:struct:Alloc::Alloc	access:public
+num_allocs	heap_profiler.h	/^  uint32_t num_allocs;        \/\/ The total number of allocation entries present.$/;"	m	struct:__anon1	access:public
+num_stack_traces	heap_profiler.h	/^  uint32_t num_stack_traces;  \/\/ The total number of stack traces present.$/;"	m	struct:__anon1	access:public
+open_proc_maps	heap_dump.c	/^static FILE* open_proc_maps() {$/;"	f	file:
+open_proc_mem_fd	heap_dump.c	/^static int open_proc_mem_fd() {$/;"	f	file:
+pid	heap_dump.c	/^static int pid;$/;"	v	file:
+rb_node	heap_profiler.h	/^  RB_ENTRY(Alloc) rb_node;  \/\/ Anchor for the RB-tree;$/;"	m	struct:Alloc	access:public
+read_proc_cmdline	heap_dump.c	/^static void read_proc_cmdline(char* cmdline, int size) {$/;"	f	file:	signature:(char* cmdline, int size)
+read_proc_cmdline	heap_dump.c	/^static void read_proc_cmdline(char* cmdline, int size);$/;"	p	file:	signature:(char* cmdline, int size)
+read_safe	heap_dump.c	/^static ssize_t read_safe(int fd, void* buf, size_t count) {$/;"	f	file:	signature:(int fd, void* buf, size_t count)
+read_safe	heap_dump.c	/^static ssize_t read_safe(int fd, void* buf, size_t count);$/;"	p	file:	signature:(int fd, void* buf, size_t count)
+real_calloc	heap_profiler_hooks_android.c	/^static calloc_t real_calloc;$/;"	v	file:
+real_free	heap_profiler_hooks_android.c	/^static free_t real_free;$/;"	v	file:
+real_malloc	heap_profiler_hooks_android.c	/^static malloc_t real_malloc;$/;"	v	file:
+real_mmap	heap_profiler_hooks_android.c	/^static mmap_t real_mmap;$/;"	v	file:
+real_mmap2	heap_profiler_hooks_android.c	/^static mmap2_t real_mmap2;$/;"	v	file:
+real_mmap64	heap_profiler_hooks_android.c	/^static mmap64_t real_mmap64;$/;"	v	file:
+real_mremap	heap_profiler_hooks_android.c	/^static mremap_t real_mremap;$/;"	v	file:
+real_munmap	heap_profiler_hooks_android.c	/^static munmap_t real_munmap;$/;"	v	file:
+real_realloc	heap_profiler_hooks_android.c	/^static realloc_t real_realloc;$/;"	v	file:
+realloc	heap_profiler_hooks_android.c	/^HEAP_PROFILER_EXPORT void* realloc(void* ptr, size_t size) {$/;"	f	signature:(void* ptr, size_t size)
+realloc_t	heap_profiler_hooks_android.c	/^typedef void* (*realloc_t)(void*, size_t);$/;"	t	file:
+record_stacktrace	heap_profiler.c	/^static StacktraceEntry* record_stacktrace(uintptr_t* frames, uint32_t depth) {$/;"	f	file:	signature:(uintptr_t* frames, uint32_t depth)
+st	heap_profiler.h	/^  StacktraceEntry* st;  \/\/ NULL == free entry.$/;"	m	struct:Alloc	access:public
+stack_crawl_state_t	heap_profiler_hooks_android.c	/^} stack_crawl_state_t;$/;"	t	typeref:struct:__anon2	file:
+stack_traces	heap_profiler.c	/^static StacktraceEntry stack_traces[ST_ENTRIES_MAX];$/;"	v	file:
+stack_traces	heap_profiler.h	/^  StacktraceEntry* stack_traces;  \/\/ Start of the StacktraceEntry pool.$/;"	m	struct:__anon1	access:public
+stack_traces_freelist	heap_profiler.c	/^static StacktraceEntry* stack_traces_freelist;$/;"	v	file:
+stack_traces_ht	heap_profiler.c	/^static StacktraceEntry* stack_traces_ht[ST_HASHTABLE_BUCKETS];$/;"	v	file:
+start	heap_profiler.h	/^  uintptr_t start;$/;"	m	struct:Alloc	access:public
+stats	heap_profiler.c	/^static HeapStats* stats;$/;"	v	file:
+total_alloc_bytes	heap_profiler.h	/^  size_t total_alloc_bytes;   \/\/ Total allocation bytes tracked.$/;"	m	struct:__anon1	access:public
+unwind_and_record_alloc	heap_profiler_hooks_android.c	/^static inline __attribute__((always_inline)) void unwind_and_record_alloc($/;"	f	file:	signature:( void* start, size_t size, uint32_t flags)
+unwind_fn	heap_profiler_hooks_android.c	/^static _Unwind_Reason_Code unwind_fn(struct _Unwind_Context* ctx, void* arg) {$/;"	f	file:	signature:(struct _Unwind_Context* ctx, void* arg)

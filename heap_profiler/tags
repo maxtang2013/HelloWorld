@@ -1,0 +1,324 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALLOCS_ENTRIES_MAX	jni/heap_profiler.c	151;"	d	file:
+APP_PLATFORM	jni/Android.mk	/^APP_PLATFORM := android-16 #for 4.1$/;"	m
+AddEntries	pprof	/^sub AddEntries {$/;"	s
+AddEntry	pprof	/^sub AddEntry {$/;"	s
+AddFetchTimeout	pprof	/^sub AddFetchTimeout {$/;"	s
+AddPcs	pprof	/^sub AddPcs {$/;"	s
+AddProfile	pprof	/^sub AddProfile {$/;"	s
+AddressAdd	pprof	/^sub AddressAdd {$/;"	s
+AddressAddUnitTest	pprof	/^sub AddressAddUnitTest {$/;"	s
+AddressInc	pprof	/^sub AddressInc {$/;"	s
+AddressIncUnitTest	pprof	/^sub AddressIncUnitTest {$/;"	s
+AddressSub	pprof	/^sub AddressSub {#--------------------------------------------------------------------------------excuted 3000+ count???????????????????????$/;"	s
+AddressSubUnitTest	pprof	/^sub AddressSubUnitTest {$/;"	s
+Alloc	jni/heap_profiler.h	/^typedef struct Alloc {$/;"	s
+Alloc	jni/heap_profiler.h	/^} Alloc;$/;"	t	typeref:struct:Alloc
+BaseName	pprof	/^sub BaseName {$/;"	s
+ByName	pprof	/^sub ByName {$/;"	s
+CanonicalHex	pprof	/^sub CanonicalHex {$/;"	s
+CheckSymbolPage	pprof	/^sub CheckSymbolPage {$/;"	s
+CleanDisassembly	pprof	/^sub CleanDisassembly {$/;"	s
+CleanFileName	pprof	/^sub CleanFileName {$/;"	s
+Commands	pprof	/^Commands:$/;"	l
+CompressedCGName	pprof	/^sub CompressedCGName {$/;"	s
+ConfigureObjTools	pprof	/^sub ConfigureObjTools {$/;"	s
+ConfigureTool	pprof	/^sub ConfigureTool {$/;"	s
+CpuProfileStream	pprof	/^  package CpuProfileStream;$/;"	p
+CumulativeProfile	pprof	/^sub CumulativeProfile {$/;"	s
+DEFINE_MUTEX	jni/heap_profiler.c	54;"	d	file:
+DebuggingLibrary	pprof	/^sub DebuggingLibrary {$/;"	s
+Disassemble	pprof	/^sub Disassemble {$/;"	s
+Examples	pprof	/^Examples:$/;"	l
+ExtractCalls	pprof	/^sub ExtractCalls {$/;"	s
+ExtractSymbolLocation	pprof	/^sub ExtractSymbolLocation {$/;"	s
+ExtractSymbols	pprof	/^sub ExtractSymbols {$/;"	s
+FetchDynamicProfile	pprof	/^sub FetchDynamicProfile {$/;"	s
+FetchDynamicProfiles	pprof	/^sub FetchDynamicProfiles {$/;"	s
+FetchDynamicProfilesRecurse	pprof	/^sub FetchDynamicProfilesRecurse {$/;"	s
+FetchProgramName	pprof	/^sub FetchProgramName() {$/;"	s
+FetchSymbols	pprof	/^sub FetchSymbols {$/;"	s
+FillFullnameToShortnameMap	pprof	/^sub FillFullnameToShortnameMap {$/;"	s
+FindLibrary	pprof	/^sub FindLibrary {$/;"	s
+FixCallerAddresses	pprof	/^sub FixCallerAddresses {$/;"	s
+FlatProfile	pprof	/^sub FlatProfile {$/;"	s
+FocusProfile	pprof	/^sub FocusProfile {$/;"	s
+GCC	jni/Makefile	/^GCC=gcc$/;"	m
+GetEntry	pprof	/^sub GetEntry {$/;"	s
+GetProcedureBoundaries	pprof	/^sub GetProcedureBoundaries {$/;"	s
+GetProcedureBoundariesViaNm	pprof	/^sub GetProcedureBoundariesViaNm {$/;"	s
+GetTopLevelLineNumbers	pprof	/^sub GetTopLevelLineNumbers {$/;"	s
+HEAP_PROFILER_EXPORT	jni/heap_profiler_hooks_android.c	19;"	d	file:
+HEAP_PROFILER_FLAGS_IN_ZYGOTE	jni/heap_profiler.h	24;"	d
+HEAP_PROFILER_FLAGS_MALLOC	jni/heap_profiler.h	15;"	d
+HEAP_PROFILER_FLAGS_MMAP	jni/heap_profiler.h	18;"	d
+HEAP_PROFILER_FLAGS_MMAP_FILE	jni/heap_profiler.h	21;"	d
+HEAP_PROFILER_MAGIC_MARKER	jni/heap_profiler.h	11;"	d
+HEAP_PROFILER_MAX_DEPTH	jni/heap_profiler.h	12;"	d
+HeapStats	jni/heap_profiler.h	/^} HeapStats;$/;"	t	typeref:struct:__anon1
+HexExtend	pprof	/^sub HexExtend {$/;"	s
+HtmlEscape	pprof	/^sub HtmlEscape {$/;"	s
+HtmlListingFooter	pprof	/^sub HtmlListingFooter {$/;"	s
+HtmlListingHeader	pprof	/^sub HtmlListingHeader {$/;"	s
+HtmlPrintNumber	pprof	/^sub HtmlPrintNumber {$/;"	s
+IgnoreProfile	pprof	/^sub IgnoreProfile {$/;"	s
+Indentation	pprof	/^sub Indentation {$/;"	s
+Init	pprof	/^sub Init() {$/;"	s
+InteractiveCommand	pprof	/^sub InteractiveCommand {$/;"	s
+InteractiveHelpMessage	pprof	/^sub InteractiveHelpMessage {$/;"	s
+InteractiveMode	pprof	/^sub InteractiveMode {$/;"	s
+IsProfileURL	pprof	/^sub IsProfileURL {$/;"	s
+IsSecondPcAlwaysTheSame	pprof	/^sub IsSecondPcAlwaysTheSame {$/;"	s
+IsSymbolizedProfileFile	pprof	/^sub IsSymbolizedProfileFile {$/;"	s
+LOCAL_MODULE	jni/Android.mk	/^LOCAL_MODULE := heap_profiler$/;"	m
+LOCAL_MODULE	jni/Android.mk	/^LOCAL_MODULE = heap_dump$/;"	m
+LOCAL_PATH	jni/Android.mk	/^LOCAL_PATH := $(TOP_PATH)$/;"	m
+LOCAL_SRC_FILES	jni/Android.mk	/^LOCAL_SRC_FILES := heap_dump.c$/;"	m
+LOCAL_SRC_FILES	jni/Android.mk	/^LOCAL_SRC_FILES := heap_profiler_hooks_android.c heap_profiler.c$/;"	m
+LOCK_MUTEX	jni/heap_profiler.c	55;"	d	file:
+Main	pprof	/^sub Main() {$/;"	s
+MakeProfileBaseName	pprof	/^sub MakeProfileBaseName {$/;"	s
+MapSymbolsWithNM	pprof	/^sub MapSymbolsWithNM {$/;"	s
+MapToSymbols	pprof	/^sub MapToSymbols {$/;"	s
+MergeSymbols	pprof	/^sub MergeSymbols {$/;"	s
+Miscellaneous	pprof	/^Miscellaneous:$/;"	l
+OFF_T_MAX	jni/heap_dump.c	264;"	d	file:
+Options	pprof	/^Options:$/;"	l
+ParseInteractiveArgs	pprof	/^sub ParseInteractiveArgs {$/;"	s
+ParseLibraries	pprof	/^sub ParseLibraries {$/;"	s
+ParseProfileURL	pprof	/^sub ParseProfileURL {$/;"	s
+ParseTextSectionHeader	pprof	/^sub ParseTextSectionHeader {$/;"	s
+ParseTextSectionHeaderFromObjdump	pprof	/^sub ParseTextSectionHeaderFromObjdump {$/;"	s
+ParseTextSectionHeaderFromOtool	pprof	/^sub ParseTextSectionHeaderFromOtool {$/;"	s
+Percent	pprof	/^sub Percent {$/;"	s
+PrintCallgrind	pprof	/^sub PrintCallgrind {$/;"	s
+PrintDisassembledFunction	pprof	/^sub PrintDisassembledFunction {$/;"	s
+PrintDisassembly	pprof	/^sub PrintDisassembly {$/;"	s
+PrintDot	pprof	/^sub PrintDot {$/;"	s
+PrintListing	pprof	/^sub PrintListing {$/;"	s
+PrintProfileData	pprof	/^sub PrintProfileData {$/;"	s
+PrintSource	pprof	/^sub PrintSource {$/;"	s
+PrintStackTree	pprof	/^sub PrintStackTree$/;"	s
+PrintSymbolizedProfile	pprof	/^sub PrintSymbolizedProfile {$/;"	s
+PrintSymbols	pprof	/^sub PrintSymbols {$/;"	s
+PrintText	pprof	/^sub PrintText {$/;"	s
+ProcessProfile	pprof	/^sub ProcessProfile {$/;"	s
+RB_AUGMENT	jni/tree.h	332;"	d
+RB_BLACK	jni/tree.h	303;"	d
+RB_COLOR	jni/tree.h	316;"	d
+RB_EMPTY	jni/tree.h	318;"	d
+RB_ENTRY	jni/tree.h	305;"	d
+RB_FIND	jni/tree.h	721;"	d
+RB_FOREACH	jni/tree.h	728;"	d
+RB_FOREACH_REVERSE	jni/tree.h	738;"	d
+RB_FOREACH_REVERSE_SAFE	jni/tree.h	743;"	d
+RB_FOREACH_SAFE	jni/tree.h	733;"	d
+RB_GENERATE	jni/tree.h	395;"	d
+RB_GENERATE_INTERNAL	jni/tree.h	399;"	d
+RB_GENERATE_STATIC	jni/tree.h	397;"	d
+RB_HEAD	jni/tree.h	291;"	d
+RB_INF	jni/tree.h	717;"	d
+RB_INIT	jni/tree.h	299;"	d
+RB_INITIALIZER	jni/tree.h	296;"	d
+RB_INSERT	jni/tree.h	719;"	d
+RB_LEFT	jni/tree.h	313;"	d
+RB_MAX	jni/tree.h	726;"	d
+RB_MIN	jni/tree.h	725;"	d
+RB_NEGINF	jni/tree.h	716;"	d
+RB_NEXT	jni/tree.h	723;"	d
+RB_NFIND	jni/tree.h	722;"	d
+RB_PARENT	jni/tree.h	315;"	d
+RB_PREV	jni/tree.h	724;"	d
+RB_PROTOTYPE	jni/tree.h	376;"	d
+RB_PROTOTYPE_INTERNAL	jni/tree.h	380;"	d
+RB_PROTOTYPE_STATIC	jni/tree.h	378;"	d
+RB_RED	jni/tree.h	304;"	d
+RB_REMOVE	jni/tree.h	720;"	d
+RB_RIGHT	jni/tree.h	314;"	d
+RB_ROOT	jni/tree.h	317;"	d
+RB_ROTATE_LEFT	jni/tree.h	335;"	d
+RB_ROTATE_RIGHT	jni/tree.h	355;"	d
+RB_SET	jni/tree.h	320;"	d
+RB_SET_BLACKRED	jni/tree.h	326;"	d
+ReadCPUProfile	pprof	/^sub ReadCPUProfile {$/;"	s
+ReadHeapProfile	pprof	/^sub ReadHeapProfile {$/;"	s
+ReadProfile	pprof	/^sub ReadProfile {$/;"	s
+ReadProfileHeader	pprof	/^sub ReadProfileHeader {$/;"	s
+ReadSymbols	pprof	/^sub ReadSymbols {$/;"	s
+ReadSynchProfile	pprof	/^sub ReadSynchProfile {$/;"	s
+ReadlineMightFail	pprof	/^sub ReadlineMightFail {$/;"	s
+ReduceProfile	pprof	/^sub ReduceProfile {$/;"	s
+RemoveUninterestingFrames	pprof	/^sub RemoveUninterestingFrames {$/;"	s
+ResolveRedirectionForCurl	pprof	/^sub ResolveRedirectionForCurl {$/;"	s
+RewriteSvg	pprof	/^sub RewriteSvg {$/;"	s
+RunEvince	pprof	/^sub RunEvince {$/;"	s
+RunGV	pprof	/^sub RunGV {$/;"	s
+RunKcachegrind	pprof	/^sub RunKcachegrind {$/;"	s
+RunUnitTests	pprof	/^sub RunUnitTests {$/;"	s
+RunWeb	pprof	/^sub RunWeb {$/;"	s
+SPLAY_ASSEMBLE	jni/tree.h	105;"	d
+SPLAY_EMPTY	jni/tree.h	78;"	d
+SPLAY_ENTRY	jni/tree.h	69;"	d
+SPLAY_FIND	jni/tree.h	278;"	d
+SPLAY_FOREACH	jni/tree.h	285;"	d
+SPLAY_GENERATE	jni/tree.h	156;"	d
+SPLAY_HEAD	jni/tree.h	57;"	d
+SPLAY_INF	jni/tree.h	274;"	d
+SPLAY_INIT	jni/tree.h	65;"	d
+SPLAY_INITIALIZER	jni/tree.h	62;"	d
+SPLAY_INSERT	jni/tree.h	276;"	d
+SPLAY_LEFT	jni/tree.h	75;"	d
+SPLAY_LINKLEFT	jni/tree.h	93;"	d
+SPLAY_LINKRIGHT	jni/tree.h	99;"	d
+SPLAY_MAX	jni/tree.h	282;"	d
+SPLAY_MIN	jni/tree.h	280;"	d
+SPLAY_NEGINF	jni/tree.h	273;"	d
+SPLAY_NEXT	jni/tree.h	279;"	d
+SPLAY_PROTOTYPE	jni/tree.h	114;"	d
+SPLAY_REMOVE	jni/tree.h	277;"	d
+SPLAY_RIGHT	jni/tree.h	76;"	d
+SPLAY_ROOT	jni/tree.h	77;"	d
+SPLAY_ROTATE_LEFT	jni/tree.h	87;"	d
+SPLAY_ROTATE_RIGHT	jni/tree.h	81;"	d
+ST_ENTRIES_MAX	jni/heap_profiler.c	73;"	d	file:
+ST_HASHTABLE_BUCKETS	jni/heap_profiler.c	74;"	d	file:
+ShellEscape	pprof	/^sub ShellEscape {$/;"	s
+ShortFunctionName	pprof	/^sub ShortFunctionName {$/;"	s
+ShortIdFor	pprof	/^sub ShortIdFor {$/;"	s
+SourceLine	pprof	/^sub SourceLine {$/;"	s
+StacktraceEntry	jni/heap_profiler.h	/^typedef struct StacktraceEntry {$/;"	s
+StacktraceEntry	jni/heap_profiler.h	/^} StacktraceEntry;$/;"	t	typeref:struct:StacktraceEntry
+SubtractProfile	pprof	/^sub SubtractProfile {$/;"	s
+SvgJavascript	pprof	/^sub SvgJavascript {$/;"	s
+SymbolMatches	pprof	/^sub SymbolMatches {$/;"	s
+SymbolPageURL	pprof	/^sub SymbolPageURL {$/;"	s
+TOOLS_ANDROID_HEAP_PROFILER_HEAP_PROFILER_H_	jni/heap_profiler.h	6;"	d
+TOP_PATH	jni/Android.mk	/^TOP_PATH := $(call my-dir)$/;"	m
+TempName	pprof	/^sub TempName {$/;"	s
+TotalProfile	pprof	/^sub TotalProfile {$/;"	s
+TranslateStack	pprof	/^sub TranslateStack {$/;"	s
+TryCollectProfile	pprof	/^sub TryCollectProfile {$/;"	s
+UNLOCK_MUTEX	jni/heap_profiler.c	56;"	d	file:
+Units	pprof	/^sub Units {$/;"	s
+Unparse	pprof	/^sub Unparse {$/;"	s
+UnparseAddress	pprof	/^sub UnparseAddress {$/;"	s
+UnparseAlt	pprof	/^sub UnparseAlt {$/;"	s
+Usage	pprof	/^Usage:$/;"	l
+_GNU_SOURCE	jni/heap_profiler_hooks_android.c	5;"	d	file:
+_SYS_TREE_H_	jni/tree.h	28;"	d
+alloc_bytes	jni/heap_profiler.h	/^  size_t alloc_bytes;$/;"	m	struct:StacktraceEntry
+allocs	jni/heap_profiler.c	/^static Alloc allocs[ALLOCS_ENTRIES_MAX];$/;"	v	file:
+allocs	jni/heap_profiler.h	/^  Alloc* allocs;              \/\/ Start of the the Alloc pool.$/;"	m	struct:__anon1
+allocs_freelist	jni/heap_profiler.c	/^static Alloc* allocs_freelist;$/;"	v	file:
+allocs_tree_cmp	jni/heap_profiler.c	/^static int allocs_tree_cmp(Alloc *alloc_1, Alloc *alloc_2) {$/;"	f	file:
+bar	jni/a.c	/^bar() {$/;"	f
+calloc	jni/heap_profiler_hooks_android.c	/^HEAP_PROFILER_EXPORT void* calloc(size_t nmemb, size_t size) {$/;"	f
+calloc_t	jni/heap_profiler_hooks_android.c	/^typedef void* (*calloc_t)(size_t, size_t);$/;"	t	file:
+clean_exit	hperf	/^clean_exit() {$/;"	f
+cleanup	pprof	/^sub cleanup {$/;"	s
+color	pprof	/^  color: #000000;$/;"	l
+color	pprof	/^  color: #0000ff;$/;"	l
+color	pprof	/^  color: #008800;$/;"	l
+color	pprof	/^  color: #aaaaaa;$/;"	l
+color	pprof	/^  color: #cccccc;$/;"	l
+creat_snapshot	hperf	/^creat_snapshot() {$/;"	f
+cursor	pprof	/^  cursor: pointer;$/;"	l
+delete_allocs_in_range	jni/heap_profiler.c	/^static uint32_t delete_allocs_in_range(void* addr, size_t size) {$/;"	f	file:
+discard_alloc	jni/heap_profiler_hooks_android.c	/^static inline __attribute__((always_inline)) void discard_alloc($/;"	f	file:
+display	pprof	/^  display: none;$/;"	l
+dump_process_heap	jni/heap_dump.c	/^static int dump_process_heap($/;"	f	file:
+end	jni/heap_profiler.h	/^  uintptr_t end;$/;"	m	struct:Alloc
+error	pprof	/^sub error {$/;"	s
+fetchModule	pprof	/^sub fetchModule$/;"	s
+flags	jni/heap_profiler.h	/^  uint32_t flags;       \/\/ See HEAP_PROFILER_FLAGS_*.$/;"	m	struct:Alloc
+foo	jni/a.c	/^foo () {$/;"	f
+fp	jni/heap_dump.c	/^static FILE* fp;$/;"	v	file:
+frame_count	jni/heap_profiler_hooks_android.c	/^  uint32_t frame_count;$/;"	m	struct:__anon2	file:
+frames	jni/heap_profiler.h	/^  uintptr_t frames[HEAP_PROFILER_MAX_DEPTH];  \/\/ Absolute addrs of stack frames.$/;"	m	struct:StacktraceEntry
+frames	jni/heap_profiler_hooks_android.c	/^  uintptr_t* frames;$/;"	m	struct:__anon2	file:
+free	jni/heap_profiler_hooks_android.c	/^HEAP_PROFILER_EXPORT void free(void* ptr) {$/;"	f
+free_stacktrace	jni/heap_profiler.c	/^static void free_stacktrace(StacktraceEntry* st) {$/;"	f	file:
+free_t	jni/heap_profiler_hooks_android.c	/^typedef void (*free_t)(void*);$/;"	t	file:
+generateFile	pprof	/^sub generateFile$/;"	s
+get	pprof	/^  sub get {$/;"	s
+get_backtrace	jni/heap_profiler_hooks_android.c	/^static uint32_t get_backtrace(uintptr_t* frames, uint32_t max_depth) {$/;"	f	file:
+get_flags_for_mmap	jni/heap_profiler_hooks_android.c	/^static uint32_t get_flags_for_mmap(int fd) {$/;"	f	file:
+has_forked_off_zygote	jni/heap_profiler_hooks_android.c	/^static int* has_forked_off_zygote;$/;"	v	file:
+hash	jni/heap_profiler.h	/^  uint32_t hash;  \/\/ H(frames), used to keep these entries in a hashtable.$/;"	m	struct:StacktraceEntry
+have_skipped_self	jni/heap_profiler_hooks_android.c	/^  bool have_skipped_self;$/;"	m	struct:__anon2	file:
+heap_profiler_alloc	jni/heap_profiler.c	/^void heap_profiler_alloc(void* addr, size_t size, uintptr_t* frames,$/;"	f
+heap_profiler_cleanup	jni/heap_profiler.c	/^void heap_profiler_cleanup(void) {$/;"	f
+heap_profiler_free	jni/heap_profiler.c	/^void heap_profiler_free(void* addr, size_t size, uint32_t* old_flags) {$/;"	f
+heap_profiler_init	jni/heap_profiler.c	/^void heap_profiler_init(HeapStats* heap_stats) {$/;"	f
+heap_profiler_stats_for_tests	jni/heap_profiler_hooks_android.c	/^HEAP_PROFILER_EXPORT const HeapStats* heap_profiler_stats_for_tests;$/;"	v
+host	pprof	/^   host:port[\/<service>]   - a location of a service to get profile from$/;"	l
+initialize	jni/heap_profiler_hooks_android.c	/^static void initialize() {$/;"	f	file:
+initialized	jni/heap_profiler_hooks_android.c	/^static int initialized = 0;$/;"	v	file:
+insert_alloc	jni/heap_profiler.c	/^static Alloc* insert_alloc($/;"	f	file:
+lseek_abs	jni/heap_dump.c	/^static void lseek_abs(int fd, size_t off) {$/;"	f	file:
+magic_start	jni/heap_profiler.h	/^  uint32_t magic_start;       \/\/ The magic marker used to locate the stats mmap.$/;"	m	struct:__anon1
+main	jni/a.c	/^main() {$/;"	f
+main	jni/heap_dump.c	/^int main(int argc, char** argv) {$/;"	f
+malloc	jni/heap_profiler_hooks_android.c	/^HEAP_PROFILER_EXPORT void* malloc(size_t byte_count) {$/;"	f
+malloc_t	jni/heap_profiler_hooks_android.c	/^typedef void* (*malloc_t)(size_t);$/;"	t	file:
+max_allocs	jni/heap_profiler.h	/^  uint32_t max_allocs;        \/\/ The max number of items in |allocs|.$/;"	m	struct:__anon1
+max_depth	jni/heap_profiler_hooks_android.c	/^  uint32_t max_depth;$/;"	m	struct:__anon2	file:
+max_stack_traces	jni/heap_profiler.h	/^  uint32_t max_stack_traces;  \/\/ The max number of items in |stack_traces|.$/;"	m	struct:__anon1
+mmap	jni/heap_profiler_hooks_android.c	/^HEAP_PROFILER_EXPORT void* mmap($/;"	f
+mmap2	jni/heap_profiler_hooks_android.c	/^HEAP_PROFILER_EXPORT void* mmap2($/;"	f
+mmap2_t	jni/heap_profiler_hooks_android.c	/^typedef void* (*mmap2_t)(void*, size_t, int, int, int, off_t);$/;"	t	file:
+mmap64	jni/heap_profiler_hooks_android.c	/^HEAP_PROFILER_EXPORT void* mmap64($/;"	f
+mmap64_t	jni/heap_profiler_hooks_android.c	/^typedef void* (*mmap64_t)(void*, size_t, int, int, int, off64_t);$/;"	t	file:
+mmap_t	jni/heap_profiler_hooks_android.c	/^typedef void* (*mmap_t)(void*, size_t, int, int, int, off_t);$/;"	t	file:
+mremap	jni/heap_profiler_hooks_android.c	/^HEAP_PROFILER_EXPORT void* mremap($/;"	f
+mremap_t	jni/heap_profiler_hooks_android.c	/^typedef void* (*mremap_t)(void*, size_t, size_t, unsigned long);$/;"	t	file:
+munmap	jni/heap_profiler_hooks_android.c	/^HEAP_PROFILER_EXPORT int munmap(void* ptr, size_t size) {$/;"	f
+munmap_t	jni/heap_profiler_hooks_android.c	/^typedef int (*munmap_t)(void*, size_t);$/;"	t	file:
+new	pprof	/^  sub new {$/;"	s
+next	jni/heap_profiler.h	/^  struct StacktraceEntry* next;$/;"	m	struct:StacktraceEntry	typeref:struct:StacktraceEntry::StacktraceEntry
+next_free	jni/heap_profiler.h	/^  struct Alloc* next_free;$/;"	m	struct:Alloc	typeref:struct:Alloc::Alloc
+num_allocs	jni/heap_profiler.h	/^  uint32_t num_allocs;        \/\/ The total number of allocation entries present.$/;"	m	struct:__anon1
+num_stack_traces	jni/heap_profiler.h	/^  uint32_t num_stack_traces;  \/\/ The total number of stack traces present.$/;"	m	struct:__anon1
+open_proc_maps	jni/heap_dump.c	/^static FILE* open_proc_maps() {$/;"	f	file:
+open_proc_mem_fd	jni/heap_dump.c	/^static int open_proc_mem_fd() {$/;"	f	file:
+overflow	pprof	/^  sub overflow {$/;"	s
+pid	jni/heap_dump.c	/^static int pid;$/;"	v	file:
+print_help	hperf	/^print_help() {$/;"	f
+pull_libs	hperf	/^pull_libs() {$/;"	f
+pull_snapshots	hperf	/^pull_snapshots() {$/;"	f
+rb_node	jni/heap_profiler.h	/^  RB_ENTRY(Alloc) rb_node;  \/\/ Anchor for the RB-tree;$/;"	m	struct:Alloc
+read_proc_cmdline	jni/heap_dump.c	/^static void read_proc_cmdline(char* cmdline, int size) {$/;"	f	file:
+read_safe	jni/heap_dump.c	/^static ssize_t read_safe(int fd, void* buf, size_t count) {$/;"	f	file:
+real_calloc	jni/heap_profiler_hooks_android.c	/^static calloc_t real_calloc;$/;"	v	file:
+real_free	jni/heap_profiler_hooks_android.c	/^static free_t real_free;$/;"	v	file:
+real_malloc	jni/heap_profiler_hooks_android.c	/^static malloc_t real_malloc;$/;"	v	file:
+real_mmap	jni/heap_profiler_hooks_android.c	/^static mmap_t real_mmap;$/;"	v	file:
+real_mmap2	jni/heap_profiler_hooks_android.c	/^static mmap2_t real_mmap2;$/;"	v	file:
+real_mmap64	jni/heap_profiler_hooks_android.c	/^static mmap64_t real_mmap64;$/;"	v	file:
+real_mremap	jni/heap_profiler_hooks_android.c	/^static mremap_t real_mremap;$/;"	v	file:
+real_munmap	jni/heap_profiler_hooks_android.c	/^static munmap_t real_munmap;$/;"	v	file:
+real_realloc	jni/heap_profiler_hooks_android.c	/^static realloc_t real_realloc;$/;"	v	file:
+realloc	jni/heap_profiler_hooks_android.c	/^HEAP_PROFILER_EXPORT void* realloc(void* ptr, size_t size) {$/;"	f
+realloc_t	jni/heap_profiler_hooks_android.c	/^typedef void* (*realloc_t)(void*, size_t);$/;"	t	file:
+record_stacktrace	jni/heap_profiler.c	/^static StacktraceEntry* record_stacktrace(uintptr_t* frames, uint32_t depth) {$/;"	f	file:
+sighandler	pprof	/^sub sighandler {$/;"	s
+st	jni/heap_profiler.h	/^  StacktraceEntry* st;  \/\/ NULL == free entry.$/;"	m	struct:Alloc
+stack_crawl_state_t	jni/heap_profiler_hooks_android.c	/^} stack_crawl_state_t;$/;"	t	typeref:struct:__anon2	file:
+stack_traces	jni/heap_profiler.c	/^static StacktraceEntry stack_traces[ST_ENTRIES_MAX];$/;"	v	file:
+stack_traces	jni/heap_profiler.h	/^  StacktraceEntry* stack_traces;  \/\/ Start of the StacktraceEntry pool.$/;"	m	struct:__anon1
+stack_traces_freelist	jni/heap_profiler.c	/^static StacktraceEntry* stack_traces_freelist;$/;"	v	file:
+stack_traces_ht	jni/heap_profiler.c	/^static StacktraceEntry* stack_traces_ht[ST_HASHTABLE_BUCKETS];$/;"	v	file:
+start	jni/heap_profiler.h	/^  uintptr_t start;$/;"	m	struct:Alloc
+stats	jni/heap_profiler.c	/^static HeapStats* stats;$/;"	v	file:
+total_alloc_bytes	jni/heap_profiler.h	/^  size_t total_alloc_bytes;   \/\/ Total allocation bytes tracked.$/;"	m	struct:__anon1
+translateProfile	pprof	/^sub translateProfile$/;"	s
+unwind_and_record_alloc	jni/heap_profiler_hooks_android.c	/^static inline __attribute__((always_inline)) void unwind_and_record_alloc($/;"	f	file:
+unwind_fn	jni/heap_profiler_hooks_android.c	/^static _Unwind_Reason_Code unwind_fn(struct _Unwind_Context* ctx, void* arg) {$/;"	f	file:
+usage	pprof	/^sub usage {$/;"	s
+usage_string	pprof	/^sub usage_string {$/;"	s
+version_string	pprof	/^sub version_string {$/;"	s

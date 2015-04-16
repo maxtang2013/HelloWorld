@@ -1,0 +1,6 @@
+1. Setting up the script
+	Edit the beginning part of 'hperf' tool and make sure the macros are correct according to your development environment. It will complain or go mad if anything went wrong so be careful.
+
+2. Do 'ndk-build'
+
+3. Launch the 'hperf' tool and it will guide you step by step.

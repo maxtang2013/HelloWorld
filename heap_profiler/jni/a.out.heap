@@ -1,0 +1,39 @@
+heap profile: 4: 610: [ 4: 610] @ heapprofile
+ 1:  10 [ 1: 10] @ 0x40059b 0x4005bf 0x7f3aeb50aec5 0x4004b9
+ 1:  200 [ 1: 200] @ 0x40058b 0x4005a5 0x4005bf 0x7f3aeb50aec5 0x4004b9
+ 1:  200 [ 1: 200] @ 0x40058b 0x4005af 0x4005bf 0x7f3aeb50aec5 0x4004b9
+ 1:  200 [ 1: 200] @ 0x40058b 0x4005c9 0x7f3aeb50aec5 0x4004b9
+
+MAPPED_LIBRARIES:
+00400000-00401000 r-xp 00000000 08:02 7110666                            /home/billming/mtt/heap_profiler/jni/a.out
+00600000-00601000 r--p 00000000 08:02 7110666                            /home/billming/mtt/heap_profiler/jni/a.out
+00601000-00602000 rw-p 00001000 08:02 7110666                            /home/billming/mtt/heap_profiler/jni/a.out
+0194e000-0196f000 rw-p 00000000 00:00 0                                  [heap]
+7f3aeb0cf000-7f3aeb0e5000 r-xp 00000000 08:02 4853658                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f3aeb0e5000-7f3aeb2e4000 ---p 00016000 08:02 4853658                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f3aeb2e4000-7f3aeb2e5000 rw-p 00015000 08:02 4853658                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f3aeb2e5000-7f3aeb2e8000 r-xp 00000000 08:02 4854782                    /lib/x86_64-linux-gnu/libdl-2.19.so
+7f3aeb2e8000-7f3aeb4e7000 ---p 00003000 08:02 4854782                    /lib/x86_64-linux-gnu/libdl-2.19.so
+7f3aeb4e7000-7f3aeb4e8000 r--p 00002000 08:02 4854782                    /lib/x86_64-linux-gnu/libdl-2.19.so
+7f3aeb4e8000-7f3aeb4e9000 rw-p 00003000 08:02 4854782                    /lib/x86_64-linux-gnu/libdl-2.19.so
+7f3aeb4e9000-7f3aeb6a4000 r-xp 00000000 08:02 4854770                    /lib/x86_64-linux-gnu/libc-2.19.so
+7f3aeb6a4000-7f3aeb8a4000 ---p 001bb000 08:02 4854770                    /lib/x86_64-linux-gnu/libc-2.19.so
+7f3aeb8a4000-7f3aeb8a8000 r--p 001bb000 08:02 4854770                    /lib/x86_64-linux-gnu/libc-2.19.so
+7f3aeb8a8000-7f3aeb8aa000 rw-p 001bf000 08:02 4854770                    /lib/x86_64-linux-gnu/libc-2.19.so
+7f3aeb8aa000-7f3aeb8af000 rw-p 00000000 00:00 0 
+7f3aeb8af000-7f3aeb8b3000 r-xp 00000000 08:02 7110663                    /home/billming/mtt/heap_profiler/jni/heap_profiler.so
+7f3aeb8b3000-7f3aebab3000 ---p 00004000 08:02 7110663                    /home/billming/mtt/heap_profiler/jni/heap_profiler.so
+7f3aebab3000-7f3aebab4000 r--p 00004000 08:02 7110663                    /home/billming/mtt/heap_profiler/jni/heap_profiler.so
+7f3aebab4000-7f3aebab5000 rw-p 00005000 08:02 7110663                    /home/billming/mtt/heap_profiler/jni/heap_profiler.so
+7f3aebab5000-7f3af10b5000 rw-p 00000000 00:00 0 
+7f3af10b5000-7f3af10d8000 r-xp 00000000 08:02 4854771                    /lib/x86_64-linux-gnu/ld-2.19.so
+7f3af12b2000-7f3af12b6000 rw-p 00000000 00:00 0 
+7f3af12d3000-7f3af12d4000 rw-p 00000000 00:00 0 
+7f3af12d4000-7f3af12d5000 rw-p 00000000 00:05 1031                       /dev/zero
+7f3af12d5000-7f3af12d7000 rw-p 00000000 00:00 0 
+7f3af12d7000-7f3af12d8000 r--p 00022000 08:02 4854771                    /lib/x86_64-linux-gnu/ld-2.19.so
+7f3af12d8000-7f3af12d9000 rw-p 00023000 08:02 4854771                    /lib/x86_64-linux-gnu/ld-2.19.so
+7f3af12d9000-7f3af12da000 rw-p 00000000 00:00 0 
+7fff85880000-7fff858a2000 rw-p 00000000 00:00 0                          [stack]
+7fff859fe000-7fff85a00000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]

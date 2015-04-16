@@ -1,0 +1,61 @@
+heap profile:      4:      610 [     4:      610] @ heapprofile
+     1:      200 [     1:      200] @ 0x0040058b 0x004005c9 0x7f3a75337ec5 0x004004b9 0x00000000
+     1:      200 [     1:      200] @ 0x0040058b 0x004005af 0x004005bf 0x7f3a75337ec5 0x004004b9 0x00000000
+     1:      200 [     1:      200] @ 0x0040058b 0x004005a5 0x004005bf 0x7f3a75337ec5 0x004004b9 0x00000000
+     1:       10 [     1:       10] @ 0x0040059b 0x004005bf 0x7f3a75337ec5 0x004004b9 0x00000000
+
+MAPPED_LIBRARIES:
+00400000-00401000 r-xp 00000000 00:00 7110666     /home/billming/mtt/heap_profiler/jni/a.out
+00600000-00601000 r--p 00000000 00:00 7110666     /home/billming/mtt/heap_profiler/jni/a.out
+00601000-00602000 rw-p 00001000 00:00 7110666     /home/billming/mtt/heap_profiler/jni/a.out
+01bc0000-024c0000 rw-p 00000000 00:00 0           [heap]
+7f3a74137000-7f3a74297000 rw-p 00000000 00:00 0           
+7f3a74297000-7f3a7429a000 r-xp 00000000 00:00 4854782     /lib/x86_64-linux-gnu/libdl-2.19.so
+7f3a7429a000-7f3a74499000 ---p 00003000 00:00 4854782     /lib/x86_64-linux-gnu/libdl-2.19.so
+7f3a74499000-7f3a7449a000 r--p 00002000 00:00 4854782     /lib/x86_64-linux-gnu/libdl-2.19.so
+7f3a7449a000-7f3a7449b000 rw-p 00003000 00:00 4854782     /lib/x86_64-linux-gnu/libdl-2.19.so
+7f3a7449b000-7f3a744b1000 r-xp 00000000 00:00 4853658     /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f3a744b1000-7f3a746b0000 ---p 00016000 00:00 4853658     /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f3a746b0000-7f3a746b1000 rw-p 00015000 00:00 4853658     /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f3a746b1000-7f3a746d2000 r-xp 00000000 00:00 4853728     /lib/x86_64-linux-gnu/liblzma.so.5.0.0
+7f3a746d2000-7f3a748d1000 ---p 00021000 00:00 4853728     /lib/x86_64-linux-gnu/liblzma.so.5.0.0
+7f3a748d1000-7f3a748d2000 r--p 00020000 00:00 4853728     /lib/x86_64-linux-gnu/liblzma.so.5.0.0
+7f3a748d2000-7f3a748d3000 rw-p 00021000 00:00 4853728     /lib/x86_64-linux-gnu/liblzma.so.5.0.0
+7f3a748d3000-7f3a749d8000 r-xp 00000000 00:00 4854773     /lib/x86_64-linux-gnu/libm-2.19.so
+7f3a749d8000-7f3a74bd7000 ---p 00105000 00:00 4854773     /lib/x86_64-linux-gnu/libm-2.19.so
+7f3a74bd7000-7f3a74bd8000 r--p 00104000 00:00 4854773     /lib/x86_64-linux-gnu/libm-2.19.so
+7f3a74bd8000-7f3a74bd9000 rw-p 00105000 00:00 4854773     /lib/x86_64-linux-gnu/libm-2.19.so
+7f3a74bd9000-7f3a74cbf000 r-xp 00000000 00:00 2892673     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19
+7f3a74cbf000-7f3a74ebe000 ---p 000e6000 00:00 2892673     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19
+7f3a74ebe000-7f3a74ec6000 r--p 000e5000 00:00 2892673     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19
+7f3a74ec6000-7f3a74ec8000 rw-p 000ed000 00:00 2892673     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19
+7f3a74ec8000-7f3a74edd000 rw-p 00000000 00:00 0           
+7f3a74edd000-7f3a74ef6000 r-xp 00000000 00:00 4854783     /lib/x86_64-linux-gnu/libpthread-2.19.so
+7f3a74ef6000-7f3a750f5000 ---p 00019000 00:00 4854783     /lib/x86_64-linux-gnu/libpthread-2.19.so
+7f3a750f5000-7f3a750f6000 r--p 00018000 00:00 4854783     /lib/x86_64-linux-gnu/libpthread-2.19.so
+7f3a750f6000-7f3a750f7000 rw-p 00019000 00:00 4854783     /lib/x86_64-linux-gnu/libpthread-2.19.so
+7f3a750f7000-7f3a750fb000 rw-p 00000000 00:00 0           
+7f3a750fb000-7f3a75107000 r-xp 00000000 00:00 2886011     /usr/lib/x86_64-linux-gnu/libunwind.so.8.0.1
+7f3a75107000-7f3a75306000 ---p 0000c000 00:00 2886011     /usr/lib/x86_64-linux-gnu/libunwind.so.8.0.1
+7f3a75306000-7f3a75307000 r--p 0000b000 00:00 2886011     /usr/lib/x86_64-linux-gnu/libunwind.so.8.0.1
+7f3a75307000-7f3a75308000 rw-p 0000c000 00:00 2886011     /usr/lib/x86_64-linux-gnu/libunwind.so.8.0.1
+7f3a75308000-7f3a75316000 rw-p 00000000 00:00 0           
+7f3a75316000-7f3a754d1000 r-xp 00000000 00:00 4854770     /lib/x86_64-linux-gnu/libc-2.19.so
+7f3a754d1000-7f3a756d1000 ---p 001bb000 00:00 4854770     /lib/x86_64-linux-gnu/libc-2.19.so
+7f3a756d1000-7f3a756d5000 r--p 001bb000 00:00 4854770     /lib/x86_64-linux-gnu/libc-2.19.so
+7f3a756d5000-7f3a756d7000 rw-p 001bf000 00:00 4854770     /lib/x86_64-linux-gnu/libc-2.19.so
+7f3a756d7000-7f3a756dc000 rw-p 00000000 00:00 0           
+7f3a756dc000-7f3a75723000 r-xp 00000000 00:00 7099111     /home/billming/mtt/heap_profiler/jni/libtcmalloc.so.4.2.4
+7f3a75723000-7f3a75923000 ---p 00047000 00:00 7099111     /home/billming/mtt/heap_profiler/jni/libtcmalloc.so.4.2.4
+7f3a75923000-7f3a75924000 r--p 00047000 00:00 7099111     /home/billming/mtt/heap_profiler/jni/libtcmalloc.so.4.2.4
+7f3a75924000-7f3a75926000 rw-p 00048000 00:00 7099111     /home/billming/mtt/heap_profiler/jni/libtcmalloc.so.4.2.4
+7f3a75926000-7f3a7594f000 rw-p 00000000 00:00 0           
+7f3a7594f000-7f3a75972000 r-xp 00000000 00:00 4854771     /lib/x86_64-linux-gnu/ld-2.19.so
+7f3a75a19000-7f3a75b50000 rw-p 00000000 00:00 0           
+7f3a75b5c000-7f3a75b71000 rw-p 00000000 00:00 0           
+7f3a75b71000-7f3a75b72000 r--p 00022000 00:00 4854771     /lib/x86_64-linux-gnu/ld-2.19.so
+7f3a75b72000-7f3a75b73000 rw-p 00023000 00:00 4854771     /lib/x86_64-linux-gnu/ld-2.19.so
+7f3a75b73000-7f3a75b74000 rw-p 00000000 00:00 0           
+7fff8504c000-7fff8506e000 rw-p 00000000 00:00 0           [stack]
+7fff851fe000-7fff85200000 r-xp 00000000 00:00 0           [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0           [vsyscall]
