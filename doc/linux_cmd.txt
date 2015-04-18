@@ -1,0 +1,9 @@
+# remove a directory recursively.
+rm -R <DIR> 
+rm -rf <DIR>
+
+
+============================
+## Kernel related
+__typeof__     #  c operator.
+__section__
