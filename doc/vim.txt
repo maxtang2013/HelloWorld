@@ -1,0 +1,8 @@
+# move around a file
+w: forward to next word.
+b: backward to previous word.
+e: move to the end of the word.
+fx: find and move to the x character
+
+%: () [] {} move to match parenthese.
+127G : move to the 127th line of this file.
