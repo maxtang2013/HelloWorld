@@ -142,7 +142,7 @@ pull_libs() {
 
 clean_exit() {
 	echo Clearing LD_PRELOAD...
-	adb shell su -c "setprop wrap.${PROCESS_NAME} \"\""
+	adb shell su -c "setprop wrap.${PROCESS_NAME} \"LD_PRELOAD=\""
 
 	#Generate report
 	if [[ ! -z ${SNAPSHOTS_PULLED} ]]; then

@@ -1,2 +1,4 @@
 *.swp
+heap_profiler/dumps
+heap_profiler/sysroot
 
