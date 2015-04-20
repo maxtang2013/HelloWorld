@@ -2,6 +2,13 @@
 rm -R <DIR> 
 rm -rf <DIR>
 
+# to open imageviewer from command line
+eog xxxx.svg
+
+# to open firefox
+firefox xxxx.html
+
+
 ===========
 /etc/fstab : 
     can be used to define how disk partitions,
