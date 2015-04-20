@@ -2,8 +2,19 @@
 rm -R <DIR> 
 rm -rf <DIR>
 
+===========
+/etc/fstab : 
+    can be used to define how disk partitions,
+    various other block devices or remote filesystems should
+    be mounted into the filesystem.
+
+
 
 ============================
 ## Kernel related
 __typeof__     #  c operator.
 __section__
+
+
+
+===========================
