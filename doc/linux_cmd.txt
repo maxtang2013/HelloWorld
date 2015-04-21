@@ -8,6 +8,11 @@ eog xxxx.svg
 # to open firefox
 firefox xxxx.html
 
+# check disk usage
+df -hl
+
+# disk partition
+fdisk
 
 ===========
 /etc/fstab : 
