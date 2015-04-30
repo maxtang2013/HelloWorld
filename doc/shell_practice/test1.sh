@@ -44,3 +44,29 @@ else
     echo cp exit code: $?
 fi
 
+hello=hell
+if [[ $hello = he* ]]; then
+    echo "he* matches hell"
+fi
+
+if [[ $hello = h.* ]]; then
+    ehco "h.* matches hell"
+fi
+
+name="max"
+
+echo Could you please tell me your name:
+read name
+
+case $name in
+    max)
+        echo Welcome;;
+    tony)
+        echo Long time no see;;
+    linda)
+        echo Hi, darling;;
+    *)
+        echo who are you?;;
+esac
+
+
