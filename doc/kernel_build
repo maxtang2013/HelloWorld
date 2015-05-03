@@ -1,0 +1,28 @@
+
+# references:
+#	
+
+1. install  Ubuntu14.04 LTS
+2. choose apt-get source 'aliyun' (very IMPORTANT, or the next step may fail)
+3. sudo apt-get update
+4. sudo apt-get install build-essential
+5. sudo apt-get install libncurses5-dev
+
+6. cd LINUX_SRC
+7. cp /boot/config-`uname -r` .config
+8. make menuconfig
+9.   from inside menuconfig choose 'Load'
+        and load the '.config'
+10. save the config
+
+11. make -j2
+   # this will take about 1 and a half hours
+
+12. sudo make modules_install
+
+13. sudo make install
+
+14. sudo reboot 
+
+15. if the new kernel doesn't boot successfully, reboot into the old system, and try to find why.
+
