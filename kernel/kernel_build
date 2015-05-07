@@ -33,3 +33,11 @@
 
 15. if the new kernel doesn't boot successfully, reboot into the old system, and try to find why.
 
+# uncomment the following line in file /etc/default/grub to let grub to not
+# use UUID in /boot/grub/grub.cfg
+#GRUB_DISABLE_LINUX_UUID=true 
+/etc/default/
+
+# copy file 09_linux_bootdelay to the folder bellow to increase boot delay
+# , in case the new kernel boot time is realy long
+/etc/grub.d
