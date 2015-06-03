@@ -14,6 +14,12 @@ df -hl
 # disk partition
 fdisk
 
+# grep 
+# -r recursively search the whole sub directory tree
+# -i ignore case
+# -n show line number
+grep -i hello `find -name "*.c"`
+
 ===========
 /etc/fstab : 
     can be used to define how disk partitions,

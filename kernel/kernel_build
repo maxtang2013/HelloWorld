@@ -1,0 +1,43 @@
+/mnt/Share2PC/add.txt
+
+# references:
+#    http://mitchtech.net/compile-linux-kernel-on-ubuntu-12-04-lts-detailed/
+# 
+# about kernel configuration:
+#    http://www.linux.org/threads/the-linux-kernel-configuring-the-kernel-part-5.4424/
+
+1. install  Ubuntu14.04 LTS
+2. choose apt-get source 'aliyun'
+    (very IMPORTANT, or the next step may fail, neither 163 nor sina source
+    worked)
+
+3. sudo apt-get update
+4. sudo apt-get install build-essential
+5. sudo apt-get install libncurses5-dev
+
+6. cd LINUX_SRC
+7. cp /boot/config-`uname -r` .config
+8. make menuconfig
+9.   from inside menuconfig choose 'Load'
+        and load the '.config'
+10. save the config
+
+11. make -j2
+   # this will take about one and a half hours
+
+12. sudo make modules_install
+
+13. sudo make install
+
+14. sudo reboot 
+
+15. if the new kernel doesn't boot successfully, reboot into the old system, and try to find why.
+
+# uncomment the following line in file /etc/default/grub to let grub to not
+# use UUID in /boot/grub/grub.cfg
+#GRUB_DISABLE_LINUX_UUID=true 
+/etc/default/
+
+# copy file 09_linux_bootdelay to the folder bellow to increase boot delay
+# , in case the new kernel boot time is realy long
+/etc/grub.d
