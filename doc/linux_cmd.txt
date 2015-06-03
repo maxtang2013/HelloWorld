@@ -36,3 +36,9 @@ __section__
 
 
 ===========================
+
+
+#makefile
+#see ../PngAlphaGenerator/makefile
+make all CFLAGS=-g
+make all CXXFLAGS=-DPRINTSRCINFO
