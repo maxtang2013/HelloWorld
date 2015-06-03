@@ -1,4 +1,4 @@
-program_NAME := myprogram
+program_NAME := GenAlpha
 program_C_SRCS := $(wildcard *.c)
 program_C_SRCS += $(wildcard zlib/*.c)
 program_C_SRCS += $(wildcard libpng/*.c)
