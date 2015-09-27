@@ -20,6 +20,7 @@ set autoread
 
 " foldmethod
 " set fdm=syntax
+set nofoldenable
 
 " Tab strategy
 set tabstop=4
@@ -44,12 +45,11 @@ set ignorecase		" Do case insensitive matching
 set smartcase		" Do smart case matching
 set incsearch		" Incremental search
 set hidden             " Hide buffers when they are abandoned
-set tags+=~/dev/linux-2.6.32.63/tags
 
 " In many terminal emulators the mouse works just fine, thus enable it.
-if has('mouse')
-  set mouse=a
-endif
+"if has('mouse')
+"  set mouse=a
+"endif
 
 " Convenient command to see the difference between the current buffer and the
 " file it was loaded from, thus the changes you made.
@@ -94,3 +94,6 @@ nnoremap Q gq
 if filereadable("./.vimrc.local")
   source ./.vimrc.local
 endif
+
+set laststatus=2
+set statusline+=%f
