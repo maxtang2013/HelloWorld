@@ -1,0 +1,3 @@
+# check the log
+sudo cat /proc/kmsg 
+
